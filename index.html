@@ -88,10 +88,16 @@
 					</div>
 					
                     <div class="social-icons">
-                        <a class="social-icon" href="http://www.linkedin.com/in/danielmendesdasilva"><i class="fab fa-linkedin-in"></i></a>
-						<a class="social-icon" href="http://www.flickr.com/photos/elkanuco"><i class="fab fa-flickr"></i></a>
-						<a class="social-icon" href="http://github.com/elkanuco"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="http://www.linkedin.com/in/danielmendesdasilva"
+                           onmouseover="play('job')"><i
+                                class="fab fa-linkedin-in"></i></a>
+						<a class="social-icon" href="http://www.flickr.com/photos/elkanuco"
+                           onmouseover="play('fun')"><i
+                                class="fab fa-flickr"></i></a>
+						<a class="social-icon" href="http://github.com/elkanuco" onmouseover="play('kata')"><i
+                                class="fab fa-github"></i></a>
                     </div>
+
                 </div>
             </section>
           
@@ -116,5 +122,17 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+        <script>
+            function play( audio) {
+                var audio = document.getElementById(audio);
+                audio.play();
+            }
+
+        </script>
+
+        <audio id="kata" src="assets\sound\kata--_gb_1.mp3"></audio>
+        <audio id="fun" src="assets\sound\fun--_gb_1.mp3"></audio>
+        <audio id="job" src="assets\sound\job--_gb_2.mp3"></audio>
     </body>
 </html>
