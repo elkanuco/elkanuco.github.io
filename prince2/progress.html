@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Practice - PRINCE2 7th Edition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="prince2-index.html">Home</a> &gt; Progress Practice
+        </nav>
+
+        <h1>Progress Practice</h1>
+        
+        <div class="intro">
+            <p>The Progress practice provides ongoing monitoring and control to ensure the project remains viable and on track. It uses tolerance-based control, stage boundaries, and regular reporting to enable management by exception.</p>
+        </div>
+
+        <h2>Progress Monitoring Activities</h2>
+
+        <h3>Setting Tolerances</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>When</strong></td>
+                    <td>During SU (project level) and SB (stage level)</td>
+                </tr>
+                <tr>
+                    <td><strong>Who</strong></td>
+                    <td>Corporate/Programme sets project tolerance; Project Board sets stage tolerance; Project Manager sets work package tolerance</td>
+                </tr>
+                <tr>
+                    <td><strong>Six Tolerance Areas</strong></td>
+                    <td>
+                        • <strong>Time</strong>: Acceptable deviation in schedule (e.g., ±2 weeks)<br>
+                        • <strong>Cost</strong>: Budget variance allowed (e.g., ±5%)<br>
+                        • <strong>Quality</strong>: Number/severity of quality criteria failures<br>
+                        • <strong>Scope</strong>: Products that can be removed/added<br>
+                        • <strong>Benefits</strong>: Acceptable reduction in benefits<br>
+                        • <strong>Risk</strong>: Overall risk exposure threshold
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Purpose</strong></td>
+                    <td>Define decision boundaries; enable management by exception; clarify escalation triggers</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Tracking Progress</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>When</strong></td>
+                    <td>Continuously during CS and MP</td>
+                </tr>
+                <tr>
+                    <td><strong>Who</strong></td>
+                    <td>Team Managers track work packages; Project Manager tracks stage; Project Board monitors project</td>
+                </tr>
+                <tr>
+                    <td><strong>Activities</strong></td>
+                    <td>
+                        • Monitor work package completion<br>
+                        • Track actual vs. planned costs<br>
+                        • Compare actual vs. planned schedule<br>
+                        • Review quality results<br>
+                        • Monitor risk and issue status<br>
+                        • Forecast remaining work<br>
+                        • Identify variances and trends<br>
+                        • Update project records
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Tracking Methods</strong></td>
+                    <td>Checkpoint meetings, timesheet reviews, Earned Value Management, milestone tracking, product completion tracking</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Reporting Progress</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Report Type</th>
+                    <th>From → To</th>
+                    <th>Frequency</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Checkpoint Report</strong></td>
+                    <td>Team Manager → Project Manager</td>
+                    <td>Regular intervals (weekly/bi-weekly)</td>
+                    <td>Status of work packages, issues, risks, forecasts</td>
+                </tr>
+                <tr>
+                    <td><strong>Highlight Report</strong></td>
+                    <td>Project Manager → Project Board</td>
+                    <td>Regular intervals (monthly typical)</td>
+                    <td>Stage status, achievements, issues, forecasts, next period plans</td>
+                </tr>
+                <tr>
+                    <td><strong>End Stage Report</strong></td>
+                    <td>Project Manager → Project Board</td>
+                    <td>End of each management stage</td>
+                    <td>Stage performance review, lessons learned, next stage readiness</td>
+                </tr>
+                <tr>
+                    <td><strong>End Project Report</strong></td>
+                    <td>Project Manager → Project Board</td>
+                    <td>Project closure</td>
+                    <td>Overall performance, benefits status, lessons learned, handover</td>
+                </tr>
+                <tr>
+                    <td><strong>Exception Report</strong></td>
+                    <td>Project Manager → Project Board</td>
+                    <td>When tolerance forecast to be breached</td>
+                    <td>Exception details, options, impact, recommendation</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Earned Value Management (EVM)</h2>
+
+        <h3>EVM Fundamentals</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Metric</th>
+                    <th>Description</th>
+                    <th>Formula</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Planned Value (PV)</strong></td>
+                    <td>Budgeted cost of work scheduled to be completed by a specific date</td>
+                    <td>Baseline budget for scheduled work</td>
+                </tr>
+                <tr>
+                    <td><strong>Earned Value (EV)</strong></td>
+                    <td>Budgeted cost of work actually completed</td>
+                    <td>% Complete × Budget</td>
+                </tr>
+                <tr>
+                    <td><strong>Actual Cost (AC)</strong></td>
+                    <td>Actual cost incurred for work completed</td>
+                    <td>Sum of actual expenditures</td>
+                </tr>
+                <tr>
+                    <td><strong>Schedule Variance (SV)</strong></td>
+                    <td>Measures schedule performance</td>
+                    <td>SV = EV - PV</td>
+                </tr>
+                <tr>
+                    <td><strong>Cost Variance (CV)</strong></td>
+                    <td>Measures cost performance</td>
+                    <td>CV = EV - AC</td>
+                </tr>
+                <tr>
+                    <td><strong>Schedule Performance Index (SPI)</strong></td>
+                    <td>Schedule efficiency ratio</td>
+                    <td>SPI = EV / PV</td>
+                </tr>
+                <tr>
+                    <td><strong>Cost Performance Index (CPI)</strong></td>
+                    <td>Cost efficiency ratio</td>
+                    <td>CPI = EV / AC</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Interpreting EVM Results</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Indicator</th>
+                    <th>Good Performance</th>
+                    <th>Poor Performance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>SV (Schedule Variance)</strong></td>
+                    <td>Positive (ahead of schedule)</td>
+                    <td>Negative (behind schedule)</td>
+                </tr>
+                <tr>
+                    <td><strong>CV (Cost Variance)</strong></td>
+                    <td>Positive (under budget)</td>
+                    <td>Negative (over budget)</td>
+                </tr>
+                <tr>
+                    <td><strong>SPI</strong></td>
+                    <td>&gt; 1.0 (work progressing faster than planned)</td>
+                    <td>&lt; 1.0 (work progressing slower than planned)</td>
+                </tr>
+                <tr>
+                    <td><strong>CPI</strong></td>
+                    <td>&gt; 1.0 (getting more value per dollar)</td>
+                    <td>&lt; 1.0 (spending more than budgeted)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Exception Management</h2>
+
+        <h3>Exception Process</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Step</th>
+                    <th>Activity</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>1. Identify Exception</strong></td>
+                    <td>Detect tolerance breach forecast</td>
+                    <td>Project Manager identifies that stage or project tolerance will be exceeded</td>
+                </tr>
+                <tr>
+                    <td><strong>2. Create Exception Report</strong></td>
+                    <td>Document exception details</td>
+                    <td>Describe cause, impact, options, recommendation; submit to Project Board</td>
+                </tr>
+                <tr>
+                    <td><strong>3. Board Reviews</strong></td>
+                    <td>Assess situation and options</td>
+                    <td>Project Board evaluates exception; may request additional analysis</td>
+                </tr>
+                <tr>
+                    <td><strong>4. Create Exception Plan</strong></td>
+                    <td>Develop recovery plan</td>
+                    <td>Project Manager prepares Exception Plan replacing current Stage Plan (or Project Plan)</td>
+                </tr>
+                <tr>
+                    <td><strong>5. Board Approval</strong></td>
+                    <td>Approve exception plan</td>
+                    <td>Project Board approves Exception Plan; project continues with new baseline</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>When to Raise an Exception</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Trigger</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Time Tolerance Breach</strong></td>
+                    <td>Forecast completion date exceeds allowed tolerance</td>
+                </tr>
+                <tr>
+                    <td><strong>Cost Tolerance Breach</strong></td>
+                    <td>Forecast costs exceed budget tolerance</td>
+                </tr>
+                <tr>
+                    <td><strong>Quality Breach</strong></td>
+                    <td>Cannot achieve minimum quality criteria within tolerance</td>
+                </tr>
+                <tr>
+                    <td><strong>Scope Change</strong></td>
+                    <td>Required scope change exceeds defined tolerance</td>
+                </tr>
+                <tr>
+                    <td><strong>Benefits at Risk</strong></td>
+                    <td>Expected benefits will fall below tolerance</td>
+                </tr>
+                <tr>
+                    <td><strong>Risk Exposure</strong></td>
+                    <td>Aggregate risk exposure exceeds risk tolerance</td>
+                </tr>
+                <tr>
+                    <td><strong>Business Case Invalid</strong></td>
+                    <td>Business justification no longer sound</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Stage and Event-Driven Control</h2>
+
+        <h3>Management Stage Boundaries</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Purpose</strong></td>
+                    <td>Provide natural decision points for Project Board approval and direction</td>
+                </tr>
+                <tr>
+                    <td><strong>Activities at Stage End</strong></td>
+                    <td>
+                        • Review stage performance (End Stage Report)<br>
+                        • Update Project Plan with actuals and revised forecasts<br>
+                        • Review and update Business Case<br>
+                        • Plan next stage (Stage Plan)<br>
+                        • Assess lessons learned<br>
+                        • Obtain approval to proceed
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Typical Stage Boundaries</strong></td>
+                    <td>Natural phases (design → build → test), decision gates, funding releases, risk mitigation points</td>
+                </tr>
+                <tr>
+                    <td><strong>Board Decision</strong></td>
+                    <td>Continue to next stage, premature close, or request changes before proceeding</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Event-Driven Controls</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Event</th>
+                    <th>Control Response</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Exception Forecast</strong></td>
+                    <td>Immediate escalation; Exception Report to Project Board</td>
+                </tr>
+                <tr>
+                    <td><strong>Major Risk Materialization</strong></td>
+                    <td>Ad-hoc report to Project Board; may trigger exception</td>
+                </tr>
+                <tr>
+                    <td><strong>Significant Issue</strong></td>
+                    <td>Escalate to appropriate authority per Change Management Approach</td>
+                </tr>
+                <tr>
+                    <td><strong>Quality Failure</strong></td>
+                    <td>Assess impact; may trigger off-specification or exception</td>
+                </tr>
+                <tr>
+                    <td><strong>External Change</strong></td>
+                    <td>Review Business Case; update plans; inform Board if significant</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Related Management Products</h2>
+
+        <h3>Highlight Report</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Owner</strong></td>
+                    <td>Project Manager</td>
+                </tr>
+                <tr>
+                    <td><strong>Created</strong></td>
+                    <td>Regularly during Controlling a Stage (CS) per agreed schedule</td>
+                </tr>
+                <tr>
+                    <td><strong>Recipient</strong></td>
+                    <td>Project Board (may be distributed more widely)</td>
+                </tr>
+                <tr>
+                    <td><strong>Contains</strong></td>
+                    <td>
+                        • Period covered<br>
+                        • Budget/schedule status<br>
+                        • Products completed this period<br>
+                        • Quality activities completed<br>
+                        • Key risks and issues<br>
+                        • Forecast vs. plan<br>
+                        • Plans for next period<br>
+                        • Decisions/actions needed
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Exception Report</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Owner</strong></td>
+                    <td>Project Manager</td>
+                </tr>
+                <tr>
+                    <td><strong>Created</strong></td>
+                    <td>When stage or project tolerance is forecast to be exceeded</td>
+                </tr>
+                <tr>
+                    <td><strong>Recipient</strong></td>
+                    <td>Project Board (stage exception) or Corporate/Programme (project exception)</td>
+                </tr>
+                <tr>
+                    <td><strong>Contains</strong></td>
+                    <td>
+                        • Exception description and cause<br>
+                        • Consequences if no action taken<br>
+                        • Options available<br>
+                        • Impact of each option<br>
+                        • Recommendation<br>
+                        • Lessons learned
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Integration with Other Practices</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Practice</th>
+                    <th>Integration Point</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Business Case</strong></td>
+                    <td>Progress reports include Business Case status; poor performance may invalidate justification</td>
+                </tr>
+                <tr>
+                    <td><strong>Plans</strong></td>
+                    <td>Progress measured against plans; variances inform replanning</td>
+                </tr>
+                <tr>
+                    <td><strong>Quality</strong></td>
+                    <td>Quality results included in progress reports; quality failures may cause exceptions</td>
+                </tr>
+                <tr>
+                    <td><strong>Risk</strong></td>
+                    <td>Risk status reported in progress reports; materialized risks impact progress</td>
+                </tr>
+                <tr>
+                    <td><strong>Issues</strong></td>
+                    <td>Issue status reported; significant issues may trigger exceptions</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <nav class="page-nav">
+            <a href="issues.html" class="btn">← Issues Practice</a>
+            <a href="prince2-index.html" class="btn">Home →</a>
+        </nav>
+    </div>
+</body>
+</html>
