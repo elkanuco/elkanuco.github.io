@@ -10082,12 +10082,10 @@ p.lead {
   background-color: #bd5d38;
 }
 
-.social-icon img.social-icon-img {
-    /* Style to match the size of your Font Awesome icons */
-   height: 3.5rem;
+.social-icon-img {
+  height: 3.5rem;
   width: 3.5rem;
-    vertical-align: middle; /* Helps with alignment */
-    /* ... other styles for consistency */
+  vertical-align: middle; 
 }
 
 .dev-icons {
